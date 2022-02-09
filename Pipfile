@@ -1,7 +1,7 @@
 [[source]]
-url = "bootstrap.pypa.io"
+url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pip"
+name = "pypi"
 
 [packages]
 django = "*"
