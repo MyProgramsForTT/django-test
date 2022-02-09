@@ -3,7 +3,7 @@
     "name": "python-wsgi-app",
     "builds": [{
         "src": "vercel_app/wsgi.py",
-        "use": "@ardnt/now-python-wsgi",
+        "use": "@ardnt/now-python-wsgi"
     }],
     "routes": [
         {
