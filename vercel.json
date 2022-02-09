@@ -3,7 +3,8 @@
     "name": "python-wsgi-app",
     "builds": [{
         "src": "vercel_app/wsgi.py",
-        "use": "@vercel/python"
+        "use": "@ardnt/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb" ,}
     }],
     "routes": [
         {
